@@ -155,9 +155,11 @@ function mochi_move()
         {
             objy[i] += 2;
 
-            if (objy[i] == 480) {
+            if (objy[i] == 480)
+            {
                 objflag[i] = false;
-                if (objtype[i] == 1) {
+                if (objtype[i] == 1)
+                {
                     mode2 = true;
                     timer = 100;
                 }
